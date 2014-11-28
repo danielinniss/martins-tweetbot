@@ -9,6 +9,7 @@ def get_random_lines():
     file_path = 'minasonly.txt'
     line_number = random.randrange(1,231975)
     text = ''
+    date = ''
     for i in range(-1,2):
         data = _get_line(file_path, line_number + i)
         if data:
