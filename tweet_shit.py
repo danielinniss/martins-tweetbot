@@ -1,11 +1,6 @@
 import tweepy
 import random_lines
-
-consumer_key = 'x1ncxKWAK93HDjOCqDW9iWoIw'
-consumer_secret = 'r14HdhJhZpXMehGtcPooAFt8MD5Da9BSgQWnoYYlL1UPUq6mXb'
-
-access_token = '2890793679-PCdCvWbFTYJ4ZLthc2a5ZXwBONaDW2WKE3wsiLH'
-access_token_secret = 'xGUkFNvfP3wkmxxqFDJKzT3BjQrrtOjUGU0LuKFgB2VCM'
+import access_details
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.secure = True
