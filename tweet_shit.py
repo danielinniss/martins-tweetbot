@@ -2,9 +2,9 @@ import tweepy
 import random_lines
 import access_details
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth = tweepy.OAuthHandler(access_details.consumer_key, access_details.consumer_secret)
 auth.secure = True
-auth.set_access_token(access_token, access_token_secret)
+auth.set_access_token(access_details.access_token, access_details.access_token_secret)
 api = tweepy.API(auth)
 
 def _get_tweet_text():
